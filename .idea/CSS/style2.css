@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    }
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+
+th {
+    background-color: #B79DC2;
+    color: #fff;
+    }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+
+tr:hover {
+    background-color: #ddd;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.main-body .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    text-align: center;
+    border: solid;
+    border-radius: 350px;
+    padding: 0 0 0 0;
+    margin: 0 250px 100px 250px;
+    border-color: #B79DC2;
+    }
+
+.main-body .icons li {
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0 35px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.5);
+                2px 2px 6px rgba(0, 0, 0, 0.8);
+    background: #B79DC2;
+    }
+
+.main-body .icons li a {
+    color: #fff;
+    font-size: 27px;
+    width: 100%;
+    line-height: 70px;
+    }
+
+.heading {
+    color: #fff;
+    text-align: center;
+    background-color: #B79DC2;
+    margin: 0 0 0 0;
+    }
+
+.heading h1 {
+    font-size: 60px;
+    margin-top: 0;
+    padding-top: 300px;
+    }
+
+.heading h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-bottom: 400px;
+    }
+
+.main-body {
+    padding: 100px 0 0 0;
+    background-color: #280037;
+    }
+
+.main-body #img img {
+    margin: 100px 0 0 200px;
+    height: 550px;
+    width: 550px
+    background: linear-gradient(white, white) padding-box,
+                  linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-bottom-right-radius: 160px 200px;
+    border: 14px solid transparent;
+    }
+
+.main-body #crush-speech {
+    height: 100px;
+    width: 450px;
+    border: 5px solid;
+    background-color: #fff;
+    position: absolute;
+    top: 1450px;
+    left: 450px;
+    border-radius: 70px;
+    border-color: #B79DC2;
+    }
+
+.main-body #crush-speech p {
+    padding: 25px 0 0 25px;
+    font-size: 18px;
+    }
+
+.main-body .work-today {
+    color: #fff;
+    width: 450px;
+    position: relative;
+    left: 750px;
+    bottom: 450px;
+    }
+
+.main-body .work-today h2 {
+    font-size: 44px;
+    padding: 0 0 50px 0;
+    }
+
+.main-body .work-today ul li {
+    padding: 0 0 20px 0;
+    }
+
+.main-body .first {
+    height: 400px;
+    width: 1px;
+    position: absolute;
+    left: 800px;
+    top: 1600px;
+    bottom: 5px;
+    }
+
+.main-body .first #first {
+    color: #fff;
+    height: 400px;
+    width: 1px;
+    position: relative;
+    left: 400px;
+    }
+
+.main-body .form {
+    width: 15px;
+    position: absolute;
+    left: 1300px;
+    bottom: 20px;
+    top: 1730px;
+    }
+
+.main-body .form #check {
+    width: 15px;
+    }
+
+.main-body .form #check input {
+    display: block;
+    padding: 70px 0 70px 0;
+    margin: 0 0 20px 0;
+    }
+
+.main-body .links hr {
+    height: 100px;
+    width: 1px;
+    }
+
+.main-body .links {
+    color: #fff;
+    padding: 0 0 90px 0;
+    margin: 0 0 500px 0;
+    position: absolute;
+    top: 2200px;
+    width: 900px;
+    text-align: center;
+    }
+
+.main-body .links .link1 {
+    padding: 0 0 0 250px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+    }
+
+.main-body .links .link2 {
+    width: 250px;
+    padding: 0 0 0 0;
+    position: relative;
+    left: 1000px;
+    bottom: 440px;
+    right: 200px;
+    }
+
+.main-body .links hr {
+
+    position: relative;
+    left: 750px;
+    bottom: 180px;
+    }
+
+.main-body .links .link1 ul {
+    list-style: none;
+    }
+
+.main-body .links .link2 ul {
+    list-style: none;
+    }
+
+.main-body .links .link1 h2 {
+    padding: 0 0 70px 0;
+    font-size: 300%;
+    }
+
+.main-body .links .link2 h2 {
+    padding: 0 0 50px 0;
+    font-size: 300%;
+    }
+
+.main-body .links .link1 ul li a {
+    color: #B79DC2;
+    }
+
+.main-body .links .link2 ul li a {
+    color: #B79DC2;
+    }
+
+.main-body .links .link1 ul li {
+    margin: 0 0 50px 0;
+    font-size: 150%;
+    }
+
+.main-body .links .link2 ul li {
+    margin: 0 0 50px 0;
+    font-size: 150%;
+    }
+
+.main-body .tables {
+    margin: 500px 0 0 0;
+    }
+
+.main-body .tables h1 {
+    color: #fff;
+    font-size: 250%;
+    margin: 0 0 100px 630px;
+    }
+
+.main-body .tables table {
+    margin: 0 0 50px 150px;
+    }
+
+.main-body .feedback {
+    margin: 40px 0 0 0;
+    color: #fff;
+    }
